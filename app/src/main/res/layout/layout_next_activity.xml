@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/image_transition"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:textSize="24sp"
+        android:textColor="#4a4a4a"
+        tools:text="Inception"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:transitionName="@string/title_transition"/>
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:textSize="16sp"
+        android:textColor="#704a4a4a"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:text="Fantasy and Mystery"
+        android:transitionName="@string/genre_transition"/>
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genre"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:textSize="12sp"
+        android:textColor="#504a4a4a"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:text="Fantasy and Mystery"
+        android:transitionName="@string/year_transition"/>
+
+</RelativeLayout>

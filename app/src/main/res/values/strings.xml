@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedElementAnimation</string>
+    <string name="image_transition">image_transtition</string>
+    <string name="title_transition">title_transition</string>
+    <string name="genre_transition">genre_transition</string>
+    <string name="year_transition">year_transition</string>
+</resources>
